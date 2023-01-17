@@ -1,13 +1,12 @@
-/*
-    账户类
+/*Account
  */
 public class Account {
 
-	private String cardId;  // 卡号
-	private String userName;    //  用户名
-	private String passWord;       //   密码
-	private double money;   //  账户余额
-	private double quotaMoney;   // 每次取现额度
+	private String cardId;  
+	private String userName;     
+	private String passWord;        
+	private double money;   
+	private double quotaMoney;   
 
 	public String getCardId() {
 		return cardId;
